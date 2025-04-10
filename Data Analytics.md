@@ -1,4 +1,4 @@
-**1. What is Data Analytics? What are the Different Types of Data Analytics?**
+## 1. What is Data Analytics? What are the Different Types of Data Analytics? 
 
 **Introduction to Data Analytics:**
 
@@ -31,7 +31,7 @@ There are four primary types of data analytics, each serving a distinct purpose:
 ---
 
 
-**2. What are the key steps in the data analysis process?**
+## 2. What are the key steps in the data analysis process? 
 
 **Introduction to Data Analysis:**
 Data analysis is a structured process of inspecting, transforming, and modeling data to discover useful information, draw conclusions, and support decision-making. A systematic approach ensures that insights derived from data are accurate, reliable, and actionable.
@@ -51,7 +51,7 @@ Data analysis is a structured process of inspecting, transforming, and modeling 
 ---
 ---
 
-**3. What are structured and unstructured data?**
+## 3. What are structured and unstructured data? 
 
 **Introduction to Data Types:**
 Data can be broadly categorized into two types: structured and unstructured. Understanding these distinctions is crucial for effectively managing and analyzing data in various industries.
@@ -100,7 +100,7 @@ Examples:
 ---
 ---
 
-**4. Why is data cleaning important?**
+## 4. Why is data cleaning important? 
 
 1. **Enhancing Data Accuracy:**  
    Clean data ensures that the analysis reflects reality. Errors like duplicate entries, missing values, or incorrect data points can lead to inaccurate conclusions, undermining the decision-making process.
@@ -117,7 +117,7 @@ Examples:
 ---
 ---
 
-**5. How do you handle missing values in a dataset?**
+## 5. How do you handle missing values in a dataset? 
 
 1. **Understanding the Type of Missing Data:**  
    Before handling missing values, it’s important to identify their type:
@@ -140,7 +140,7 @@ Examples:
 ---
 ---
 
-**6. What are common data cleaning techniques?**
+## 6. What are common data cleaning techniques?   
 
 **1. Handling Missing Data:**  
    - **Deletion:** If the percentage of missing data is small, you can remove rows or columns with missing values.
@@ -164,9 +164,9 @@ Examples:
 ---
 ---
 
-**7. Explain the concept of data normalization and standardization.**
+## 7. Explain the concept of data normalization and standardization. 
 
----
+ 
 
 **1. Data Normalization:**  
    Normalization transforms data into a specific range, typically [0, 1], by scaling the values proportionally.
@@ -184,7 +184,7 @@ Examples:
    - **Example:**  
      Consider a dataset with a feature "Income" ranging from 20,000 to 150,000. After normalization, all values will be rescaled to fit between 0 and 1, making them suitable for analysis.
 
----
+ 
 
 **2. Data Standardization:**  
    Standardization transforms data to have a mean of 0 and a standard deviation of 1, making it fit a standard normal distribution.
@@ -206,12 +206,11 @@ Examples:
 ---
 ---
 
-**8. Why is data visualization important in analytics?**
+## 8. Why is data visualization important in analytics? 
 
 **Introduction:**
 Data visualization is the graphical representation of information and data using visual elements such as charts, graphs, and maps. It is an essential component of data analytics, enabling analysts and decision-makers to interpret complex datasets more efficiently and effectively.
 
----
 
 **Key Reasons Why Data Visualization is Important:**
 
@@ -230,13 +229,12 @@ Data visualization is the graphical representation of information and data using
 ---
 ---
 
-**9. How would you visualize time-series data?**
+## 9. How would you visualize time-series data?
 
 
 **Introduction:**
 Time-series data consists of observations recorded sequentially over time intervals. Examples include stock prices, weather data, website traffic, and energy consumption. Visualizing such data helps in identifying trends, patterns, seasonality, and anomalies, making it crucial for effective analysis and decision-making.
 
----
 
 **Key Techniques for Visualizing Time-Series Data:**
 
@@ -259,16 +257,14 @@ Time-series data consists of observations recorded sequentially over time interv
 ---
 ---
 
-**10. What are some common tools used for data analytics?**
+## 10. What are some common tools used for data analytics?
 
----
 
-**Common Tools Used in Data Analytics**
 
 **Introduction:**
 Data analytics relies on specialized tools and software to process, analyze, and visualize data. These tools help transform raw data into meaningful insights, catering to tasks ranging from data cleaning to predictive modeling. Below is an overview of popular tools used across different phases of the data analytics process.
 
----
+
 
 **1. Data Collection and Storage Tools:**
    - **SQL (Structured Query Language):** Used for managing and querying structured data in relational databases.
@@ -276,21 +272,21 @@ Data analytics relies on specialized tools and software to process, analyze, and
    - **NoSQL Databases (e.g., MongoDB, Cassandra):** Designed for storing unstructured and semi-structured data.
    - **Apache Hadoop and Apache Spark:** Frameworks for handling and storing large-scale datasets across distributed systems.
 
----
+
 
 **2. Data Cleaning Tools:**
    - **OpenRefine:** An open-source tool for cleaning and transforming messy datasets.
    - **Python and R:** Programming languages equipped with libraries like Pandas (Python) and dplyr (R) for data cleaning and manipulation.
    - **Trifacta:** A powerful tool for data wrangling and preparation.
 
----
+
 
 **3. Data Analysis and Statistical Tools:**
    - **Python and R:** Popular languages for data analysis, with libraries such as NumPy, SciPy, and ggplot2 offering advanced analytical capabilities.
    - **SPSS (Statistical Package for the Social Sciences):** A user-friendly tool for statistical analysis, widely used in academic research and business analytics.
    - **MATLAB:** Ideal for mathematical modeling and statistical analysis.
 
----
+
 
 **4. Data Visualization Tools:**
    - **Tableau:** A leading data visualization tool for creating interactive dashboards and visuals.
@@ -301,12 +297,12 @@ Data analytics relies on specialized tools and software to process, analyze, and
 ---
 ---
 
-**11. How does correlation analysis help in dimensionality reduction techniques like PCA?**
+## 11. How does correlation analysis help in dimensionality reduction techniques like PCA?
 
 **Introduction:**
 Dimensionality reduction techniques like Principal Component Analysis (PCA) are essential for simplifying datasets with multiple variables. Correlation analysis plays a critical role in these techniques by identifying relationships between features, enabling better preprocessing and optimization for dimensionality reduction.
 
----
+
 
 **Understanding Correlation Analysis:**
 Correlation analysis measures the statistical relationship between two variables. A strong correlation between variables indicates that they are closely related, which can result in redundancy in the dataset.
@@ -318,7 +314,7 @@ Correlation analysis measures the statistical relationship between two variables
 
 - **Metric:** The Pearson correlation coefficient (\(r\)) is commonly used to quantify the strength and direction of correlation.
 
----
+
 
 **Role of Correlation Analysis in PCA:**
 Principal Component Analysis is a dimensionality reduction method that transforms correlated variables into a set of uncorrelated components, called principal components. Here’s how correlation analysis contributes:
